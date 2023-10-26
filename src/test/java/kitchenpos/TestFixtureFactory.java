@@ -1,6 +1,13 @@
 package kitchenpos;
 
-import kitchenpos.domain.*;
+import kitchenpos.Product.domain.Product;
+import kitchenpos.menu.domain.Menu;
+import kitchenpos.menugroup.domain.MenuGroup;
+import kitchenpos.menu.domain.MenuProduct;
+import kitchenpos.order.domain.Order;
+import kitchenpos.order.domain.OrderLineItem;
+import kitchenpos.order.domain.OrderTable;
+import kitchenpos.table.domain.TableGroup;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
